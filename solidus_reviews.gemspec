@@ -29,8 +29,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'deface', ['>= 1.9.0', '< 2.0']
-  spec.add_dependency 'solidus_core', ['>= 2.0.0', '< 5']
-  spec.add_dependency 'solidus_support', ['>= 0.14.1', '< 1']
+  spec.add_dependency 'solidus_core'
+  spec.add_dependency 'solidus_support'
 
   spec.add_development_dependency 'rails-controller-testing'
   spec.add_development_dependency 'solidus_dev_support', ['>= 2.11', '< 3']
